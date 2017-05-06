@@ -1,17 +1,17 @@
-# docker-nheqminer  
-This is a docker for nheqminer (CPU_XENONCAT) (<https://github.com/nicehash/nheqminer>). It works well with nicehash and many other mining pool.
+# docker-nheqminer 0.4b  
+This is a docker for nheqminer version 0.4b prior to the switch to AVX instructions (<https://github.com/nicehash/nheqminer>). It works well with nicehash and many other mining pools.
 
 ### Usage:  
-    docker run -d kmdgeek/nheqminer /nheqminer -l <server:port> -u <user_address.worker>  
+    docker run -d sfoskett/nheqminer-0.4b /nheqminer -l <server:port> -u <user_address.worker>  
 
 ### Full example:  
-    docker run -d kmdgeek/nheqminer /nheqminer -l equihash.usa.nicehash.com:3357 -u 1CotpRm3YFDz1XLXhDcm8LPaso1gnD8ScD.demo  
+    docker run -d sfoskett/nheqminer-0.4b /nheqminer -l zec.slushpool.com:4444 -u sfoskett.demo  
 
 ### More usage:  
-Run `docker run kmdgeek/nheqminer /nheqminer -h` to to see options.  
-After that, you can run `docker run kmdgeek/nheqminer /nheqminer [OPT...]` as you like.
+Run `docker run sfoskett/nheqminer-0.4b /nheqminer -h` to to see options.  
+After that, you can run `docker run sfoskett/nheqminer-0.4b /nheqminer [OPT...]` as you like.
 
 ### Docker Hub:
 
-This docker is available at https://hub.docker.com/r/kmdgeek/nheqminer
+This docker is available at https://hub.docker.com/r/sfoskett/nheqminer-0.4b
 
