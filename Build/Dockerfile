@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER kmd.geek
+MAINTAINER sfoskett
 
 RUN apt-get update && \
     apt-get install -y git cmake build-essential libboost-all-dev && \
